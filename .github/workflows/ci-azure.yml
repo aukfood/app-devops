@@ -7,7 +7,8 @@ on:
 env:
   AZURE_WEBAPP_NAME: app-demo-azure
   TAG: 1.0
-  AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace}} # Défini le chemin d'accès à la webapp
+#  AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace}} # Défini le chemin d'accès à la webapp
+  AZURE_WEBAPP_PACKAGE_PATH: azure-webapp
   JAVA_VERSION: 17
 
 jobs:
