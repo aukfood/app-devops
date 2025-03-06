@@ -5,7 +5,7 @@ on:
 #    branches: [toAzure]
 
 env:
-  AZURE_WEBAPP_NAME: app-demo-azure
+  AZURE_WEBAPP_NAME: guillaume-app
   TAG: 1.0
   AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace}} # Défini le chemin d'accès à la webapp
   JAVA_VERSION: 17
